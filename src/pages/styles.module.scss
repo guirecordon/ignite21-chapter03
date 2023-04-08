@@ -1,0 +1,46 @@
+.mainContainer {
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  gap: 10.25rem;
+  margin: 0 auto;
+  height: calc(100vh - 5rem);
+
+
+  .leftSideHero {
+    span {
+      display: inline-block;
+      color: var(--title);
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 2.5rem;
+    }
+
+    h1 {
+      color: var(--white);
+      font-size: 4.5rem;
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+
+      span {
+        font-size: 4.5rem;
+        color: var(--blue-500);
+        font-weight: 900;
+      }
+    }
+
+    p {
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--title);
+
+      strong {
+        display: block;
+        color: var(--blue-500);
+      }
+    }
+  }
+
+}
