@@ -1,0 +1,51 @@
+.mainContainer {
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  height: calc(100vh - 5rem);
+
+
+  .leftSideHero {
+    max-width: 32rem;
+    margin-right: 10.25rem;
+
+    span {
+      display: inline-block;
+      color: var(--title);
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      color: var(--white);
+      font-size: 4.5rem;
+      font-weight: 900;
+      line-height: 1;
+
+      span {
+        font-size: 4.5rem;
+        color: var(--blue-500);
+        font-weight: 900;
+      }
+    }
+
+    p {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--title);
+
+      strong {
+        display: block;
+        color: var(--blue-500);
+      }
+    }
+  }
+
+  button {
+    margin-top: 1.5rem;
+  }
+}
