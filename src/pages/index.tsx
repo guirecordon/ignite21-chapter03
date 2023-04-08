@@ -1,3 +1,4 @@
+import { SubscribeButton } from '@/components/SubscribeButton';
 import Head from 'next/head'
 
 import styles from './styles.module.scss';
@@ -22,6 +23,8 @@ export default function Home() {
               currency: 'USD',
             }).format(9.90)} month</strong>
           </p>
+
+          <SubscribeButton />
         </div>
 
         <img src="/images/heroimg.svg" alt="girl on computer" />
