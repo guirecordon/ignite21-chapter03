@@ -3,6 +3,7 @@
   --shape: #1F2729;
   --text: #A8A8B3;
   --title: #E1E1E6;
+  --gray-700: #323238;
   --yellow-500: #EBA417;
   --green-500: #04D361;
   --blue-500: #61DCFB;
@@ -39,6 +40,7 @@ h1, h2, h3, h4, h5, h6, strong {
 a {
   color: var(--text);
   cursor: pointer;
+  text-decoration: none;
 }
 
 body, input, textarea, button {
